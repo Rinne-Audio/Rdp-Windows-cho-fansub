@@ -85,7 +85,7 @@ jobs:
          write-host Beta1.0-4.5.2023
          powershell.exe -File package.ps1
          write-host Đã xong!
-         wtite-host Đang cài đặt ứng dụng người dùng tuỳ chọn
+         write-host Đang cài đặt ứng dụng người dùng tuỳ chọn
          choco install ${{ github.event.inputs.pg }} > $null
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username
