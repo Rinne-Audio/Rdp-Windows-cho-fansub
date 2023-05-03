@@ -1,4 +1,4 @@
-name: Windows Server 2022 Chrome Remote Desktop 
+name: Windows Server 2022 (chưa hỗ trợ)
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
