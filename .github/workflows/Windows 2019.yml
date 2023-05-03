@@ -1,4 +1,4 @@
-name: Windows Server 2019
+name: Windows Server 2019 cho Fansub
 on:
   workflow_dispatch:
     inputs:
@@ -30,6 +30,17 @@ jobs:
     - name: Chạy Ngrok
       shell: bash
       run: ngrok tcp 3389  &>/dev/null &
+    - name: Setup cho Windows 2019 Fansub Edition
+      run: |
+         choco install aegisub > $null
+         write-host Đã thiết lập Aegisub
+         choco install handbrake > $null
+         write-host Đang thiết lập phần mềm encode > $null
+         choco install formatfactory > $null
+         write-host Đã xong!
+         choco install transmission > $null
+         write-host Thiết lập cài đặt cho Torrent đã xong!
+         
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username
       run: |
@@ -41,6 +52,7 @@ jobs:
       run: |
             write-host IP LÀ:
             curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Lỗi token"
+            write-host Hãy bỏ "tcp://" và bỏ vào phần IP
             write-host Password: ${{ github.event.inputs.os2 }}
             powershell.exe -File 3.ps1
       timeout-minutes: 360
