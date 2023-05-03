@@ -3,11 +3,10 @@
 
 Vps Github Actions này được tạo bởi Rinne, vui lòng không sao chép và chỉnh sửa.
 
-## 😺 Xàm xí chút
+## 😺 Giới thiệu về Windows 2019 for fansub
 
-Đăng ký kênh [YouTube của mình](https://m.youtube.com/channel/UC_a6C7a0WdTZaPCOWtjwP5A)
+**Windows 2019 Github Actions Fansub Edition là phiên bản rdp windows được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các fansub**
 
-## Bắt đầu nào!
 **VPS này duy trì hoạt động trong bao lâu?**<br>
 
 * Vps này vẫn hoạt động trong tối đa 6 giờ.<br>
@@ -34,25 +33,8 @@ Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](http
 
 + **🍎 Hệ điều hành iOS (Unix Like)**: RD Cilent, Microsoft Remote Desktop (ipa)
 
-## 🍔 Cách dùng file Ubuntu - Windows 2022 (Chrome Remote Desktop)
 
-+ Vào Actions, chọn Ubuntu 20.04 hoặc Ubuntu 22.04
 
-+ Đối với Windows, chọn Windows 2022
-
-+ Nhấn "run workflow" và chép mã Debian Linux từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
-
-+ Đối với Windows, chép Windows Powershell (nếu chọn VPS Windows) từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
-
-+ Lưu ý là mã chứ không phải link
-
-+ Dán mã đó vào phần "run workflow"
-
-+ Không được thoát tab Chrome Remote Desktop trong lúc chạy.
-Phần mật khẩu và pin các bạn hãy nhập tuỳ ý nhé!
-Sau đấy hãy nhấn run và chờ một lúc thôi nha
-Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
-Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
 ## License
 The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
