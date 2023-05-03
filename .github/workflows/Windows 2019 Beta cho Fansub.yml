@@ -33,7 +33,6 @@ jobs:
     timeout-minutes: 360
 
     runs-on: windows-2019
-    environment: Windows Server 2019 Fansub Edition
 
     name: Đang chạy
 
