@@ -71,6 +71,7 @@ jobs:
          write-host Đã xong!
          write-host Đang cài đặt ứng dụng người dùng tuỳ chọn
          choco install ${{ github.event.inputs.pg }} > $null
+         powershell.exe -File pgnguoidung.ps1
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username & IP NGROK
       run: |
