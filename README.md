@@ -5,7 +5,7 @@ RDP Github Actions phiên bản hình ảnh Windows gốc bởi Github, Azure Go
 
 ## 😺 Giới thiệu về Windows 2019 for fansub
 
-**Windows 2019 Github Actions Fansub Edition là phiên bản rdp windows được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các fansub**
+**🥰 Windows 2019 Github Actions Fansub Edition là phiên bản rdp windows được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các fansub**
 
 **VPS này duy trì hoạt động trong bao lâu?**<br>
 
