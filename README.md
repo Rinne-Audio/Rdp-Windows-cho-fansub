@@ -14,7 +14,7 @@ https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
 
 **VPS này duy trì hoạt động trong bao lâu?**<br>
 
-* Vps này vẫn hoạt động trong tối đa 6 giờ.<br>
+* **Vps** này vẫn hoạt động trong tối đa 6 giờ.<br>
 
 **Cấu hình của VPS?**
 
@@ -26,9 +26,9 @@ https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
 ## 🪟 Cách dùng file Windows Server 2019 - Microsoft Remote Desktop
 
 Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](https://dashboard.ngrok.com/get-started/your-authtoken)
-Đăng nhập bằng GitHub sau đó sao chép mã Token, quay lại repo này và vào Actions, chọn Windows Server 2022 và nhấn "Run Workflow" nhập theo yêu cầu ở actions.
+Đăng nhập bằng ***GitHub*** sau đó sao chép mã Token, quay lại repo này và vào Actions, chọn ***Windows Server 2019** và nhấn "Run Workflow" nhập theo yêu cầu ở actions.
 
-+ Sau khi nhấn "Run" xong, hãy load lại trang và vào cái Github Actions đang chạy, chờ vài phút bạn sẽ thấy ip và username, mật khẩu
++ Sau khi nhấn "Run" xong, hãy load lại trang và vào cái ***Github Actions*** đang chạy, chờ vài phút bạn sẽ thấy **ip** và **username,** **mật khẩu**
 
 # Kết nối với VPS Windows 2019
 
