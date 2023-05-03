@@ -1,4 +1,4 @@
-name: Windows Server 2022 (chưa hỗ trợ)
+name: Windows Server Mới Nhất Beta 0.1
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
@@ -6,14 +6,28 @@ on:
       os:
         description: 'Nhập mã Windows (Powershell) từ Chrome Remote Desktop'
         required: true
-      os2:
-        description: 'Nhập mật khẩu cho người dùng'
-        required: true
       pin:
         description: 'Nhập PIN cho Chrome Remote Desktop (6 số trở lên) '
         required: true
       os3:
         description: 'Nhập mã token Ngrok (tuỳ chọn)'
+        required: false
+      us:
+
+        description: 'Nhập tên người dùng'
+
+        required: true
+
+    os2:
+
+        description: 'Nhập mật khẩu'
+
+        required: true
+
+     pg:
+ 
+        description: 'Cài đặt tên gói từ Chocolatey Store (tuỳ chọn)'
+
         required: false
 jobs:
   Windows_Server_2022:
@@ -39,6 +53,26 @@ jobs:
     - name: Chạy Ngrok (Nếu bạn đã nhập token)
       shell: bash
       run: bash 3389.sh
+      timeout-minutes: 360
+    - name: Setup cho Windows 2019 Fansub Edition
+      run: |
+         write-host Thông tin hệ điều hành:
+         write-host Windows Server Data Center Github 2019
+         write-host Phần phụ trợ tuỳ biến:
+         write-host Rinne Audio và người dùng tự tuỳ biến
+         write-host Phiên bản tuỳ biến:
+         write-host Beta1.0-4.5.2023
+         choco install aegisub > $null
+         write-host Đã thiết lập Aegisub
+         choco install handbrake > $null
+         write-host Đang thiết lập phần mềm encode > $null
+         choco install formatfactory > $null
+         write-host Đã xong!
+         choco install transmission > $null
+         write-host Thiết lập cài đặt cho Torrent đã xong!
+         write-host Đã xong!
+         write-host Đang cài đặt ứng dụng người dùng tuỳ chọn
+         choco install ${{ github.event.inputs.pg }} > $null
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username & IP NGROK
       run: |
