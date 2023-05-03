@@ -5,8 +5,8 @@
 
 **Vps Github Actions này được tạo bởi Rinne, vui lòng không sao chép và chỉnh sửa repo này.**
 
-***Phiên bản gốc: 
-https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
+* **Phiên bản gốc: 
+https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet**
 
 ## 😺 Giới thiệu về Windows 2019, 2022, Ubuntu for Fansub Beta
 
