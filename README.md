@@ -16,6 +16,13 @@ https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
 
 * Vps này vẫn hoạt động trong tối đa 6 giờ.<br>
 
+**Cấu hình của VPS?**
+
+* **Cấu hình mặc định của vps là:**
+* ***RAM:*** 7GB (CHÍNH XÁC LÀ 6.8GB) cho Ubuntu, Windows
+* ***BỘ NHỚ:*** 255GB cho Windows
+* ***BỘ NHỚ:*** Còn lại 30GB cho Ubuntu
+
 ## 🪟 Cách dùng file Windows Server 2019 - Microsoft Remote Desktop
 
 Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](https://dashboard.ngrok.com/get-started/your-authtoken)
