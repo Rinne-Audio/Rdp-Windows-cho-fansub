@@ -38,8 +38,31 @@ Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](http
 
 + **🍎 Hệ điều hành iOS (Unix Like)**: RD Cilent, Microsoft Remote Desktop (ipa)
 
+## 🍔 Cách dùng file Ubuntu - Windows 2022 (Chrome Remote Desktop)
 
++ Vào Actions, chọn Ubuntu 20.04 hoặc Ubuntu 22.04
 
++ Đối với Windows, chọn Windows 2022
+
++ Nhấn "run workflow" và chép mã Debian Linux từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
+
++ Đối với Windows, chép Windows Powershell (nếu chọn VPS Windows) từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
+
++ Lưu ý là mã chứ không phải link
+
++ Dán mã đó vào phần "run workflow"
+
++ Tuỳ chọn: Bạn có thể vào trang web [Chocolatey Store](https://community.chocolatey.org/packages) để tìm kiếm các gói phần mềm muốn cài sẵn vào RDP, nếu gói bạn đang tìm khả dụng ở Chocolatey, hãy sao chép tên đằng sau "choco install" của mỗi gói vào phần "run workflow"
+
++ Không được thoát tab Chrome Remote Desktop trong lúc chạy.
+Phần mật khẩu và pin các bạn hãy nhập tuỳ ý nhé!
+Sau đấy hãy nhấn run và chờ một lúc thôi nha
+Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
+Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
 ## License
 The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
+
+
+
+
