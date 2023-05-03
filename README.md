@@ -68,8 +68,11 @@ Sau đấy hãy nhấn run và chờ một lúc thôi nha
 Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
 Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
-## License
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
+## Giấy phép
+
+
+
+Bản thân nội dung của dự án này được cấp phép theo [Giấy phép chưa chuyển đổi Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) và mã nguồn cơ bản
 
 
 
