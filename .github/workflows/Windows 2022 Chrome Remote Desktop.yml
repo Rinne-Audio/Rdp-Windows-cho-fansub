@@ -18,14 +18,12 @@ on:
 
         required: true
 
-    os2:
-
+      os2:
         description: 'Nhập mật khẩu'
 
         required: true
 
-     pg:
- 
+      pg1:
         description: 'Cài đặt tên gói từ Chocolatey Store (tuỳ chọn)'
 
         required: false
