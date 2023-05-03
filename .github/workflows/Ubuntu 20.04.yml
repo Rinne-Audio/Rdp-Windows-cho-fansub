@@ -1,5 +1,5 @@
 
-name: Ubuntu 20.04 (chưa hỗ trợ)
+name: Ubuntu 20.04 Fansub Edition
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
@@ -35,7 +35,26 @@ jobs:
            ${{ github.event.inputs.os }} --pin=${{ github.event.inputs.os2 }} &>/dev/null 
     - name: Trước khi kết nối VPS, bạn phải chờ cho ô này chạy xong!
       run: |
+           echo Bạn đang chạy phiên bản Ubuntu:
+           echo 20.04 - Azure Microsoft
+           echo Phiên bản tuỳ biến giao diện và hệ điều hành:
+           echo Tuỳ biến bởi người dùng và Rinne RDP, Rinne Audio
+           echo Trình quản lý gói:
+           echo dpkg, apt, apt-get, snap, store có sẵn trong hệ điều hành 
+           echo Số phiên bản Ubuntu-Fansub-Edition
+           echo Đang chạy lệnh "ubuntu rinne rdp check version"
+           echo 20.04-beta-4.5.2023-fsedition-microsoft-azure-v1.0
+          
            bash bash2.sh
     - name: Thành công!
-      run: yes Tạo thành công VPS!
+      run: |
+         echo Đang thiết lập cho Fansub Edition
+         echo Mất khoảng 1 phút để hoàn tất...
+         sudo apt install handbrake -y  &>/dev/null &
+         sudo apt install aegisub -y  &>/dev/null &
+         sudo apt install transmission -y  &>/dev/null &
+         echo Tạo thành công VPS!
+         yes  &>/dev/null 
+         yes  &>/dev/null 
+         
       timeout-minutes: 360
