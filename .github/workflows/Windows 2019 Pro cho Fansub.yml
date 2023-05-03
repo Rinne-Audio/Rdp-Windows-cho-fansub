@@ -83,7 +83,15 @@ jobs:
          write-host Rinne Audio và người dùng tự tuỳ biến
          write-host Phiên bản tuỳ biến:
          write-host Beta1.0-4.5.2023
-         powershell.exe -File package.ps1
+         choco install aegisub > $null
+         write-host Đã thiết lập Aegisub
+         choco install handbrake > $null
+         write-host Đang thiết lập phần mềm encode > $null
+         choco install formatfactory > $null
+         write-host Đã xong!
+         choco install transmission > $null
+         write-host Thiết lập cài đặt cho Torrent đã xong!
+
          write-host Đã xong!
          write-host Đang cài đặt ứng dụng người dùng tuỳ chọn
          choco install ${{ github.event.inputs.pg }} > $null
