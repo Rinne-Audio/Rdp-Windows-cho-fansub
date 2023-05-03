@@ -3,8 +3,8 @@
 
 RDP Github Actions phiên bản hình ảnh Windows gốc bởi Github, Azure Google Cloud Platform. Vui lòng không sao chép và chỉnh sửa.
 
-** Phiên bản gốc: 
-https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet
+** + Phiên bản gốc: 
+https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet **
 
 ## 😺 Giới thiệu về Windows 2019 for Fansub Beta
 
