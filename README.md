@@ -8,9 +8,9 @@
 ***Phiên bản gốc: 
 https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
 
-## 😺 Giới thiệu về Windows 2019 for Fansub Beta
+## 😺 Giới thiệu về Windows 2019, 2022, Ubuntu for Fansub Beta
 
-**🥰 Windows 2019 Github Actions Fansub Edition Beta là phiên bản RDP Windows được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các Fansub được thử nghiệm trước khi đưa vào bản chính thức của repo (repo này không phải do Github tạo ra và không tuân thủ đúng chính sách điều khoản nên vui lòng không sử dung nó để đào coin.)**
+**🥰 Windows, Ubuntu Github Actions Fansub Edition Beta là phiên bản RDP Windows, Ubuntu được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các Fansub được thử nghiệm trước khi đưa vào bản chính thức của repo (repo này không phải do Github tạo ra và không tuân thủ đúng chính sách điều khoản nên vui lòng không sử dung nó để đào coin.)**
 
 **VPS này duy trì hoạt động trong bao lâu?**<br>
 
