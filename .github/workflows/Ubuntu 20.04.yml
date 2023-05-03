@@ -1,5 +1,5 @@
 
-name: Ubuntu 20.04 Fansub Edition
+name: Ubuntu 20.04 Fansub Edition Official Version (7 phút cài đặt)
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
