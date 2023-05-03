@@ -1,4 +1,4 @@
-name: Windows Server 2019 Premium cho Fansub
+name: Windows Server 2019 Premium cho Fansub Beta 1.0
 
 on:
 
@@ -20,6 +20,11 @@ on:
         description: 'Nhập mật khẩu'
 
         required: true
+      pg:
+
+        description: 'Cài đặt tên gói từ Chocolatey Store (tuỳ chọn)'
+
+        required: false
 
 jobs:
 
@@ -72,30 +77,24 @@ jobs:
 
     - name: Setup cho Windows 2019 Fansub Edition
       run: |
-         choco install aegisub > $null
-
-         write-host Đã thiết lập Aegisub
-
-         choco install handbrake > $null
-
-         write-host Đang thiết lập phần mềm encode > $null
-
-         choco install formatfactory > $null
-
+         write-host Thông tin hệ điều hành:
+         write-host Windows Server Data Center Github 2019
+         write-host Phần phụ trợ tuỳ biến:
+         write-host Rinne Audio và người dùng tự tuỳ biến
+         write-host Phiên bản tuỳ biến:
+         write-host Beta1.0-4.5.2023
+         powershell.exe -File package.ps1
          write-host Đã xong!
-
-         choco install transmission > $null
-
-         write-host Thiết lập cài đặt cho Torrent đã xong!
-
-         
-
+         wtite-host Đang cài đặt ứng dụng người dùng tuỳ chọn
+         choco install ${{ github.event.inputs.pg }} > $null
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username
       run: |
+            write-host Username: ${{ github.event.inputs.us }}
             write-host Username: $env:UserName
 
             write-host Username: installer
+           
 
             write-host Password: ${{ github.event.inputs.os2 }}
 
