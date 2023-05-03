@@ -1,4 +1,4 @@
-name: Ubunu 22.04
+name: Ubunu 22.04 (chưa hỗ trợ)
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
