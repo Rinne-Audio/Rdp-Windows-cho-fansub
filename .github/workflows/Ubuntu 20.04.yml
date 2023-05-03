@@ -1,5 +1,5 @@
 
-name: Ubuntu 20.04
+name: Ubuntu 20.04 (Chưa hỗ trợ)
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
