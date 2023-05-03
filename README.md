@@ -1,7 +1,9 @@
 
 # 📌 Lời chào (Vietnamese Version)
 
-**RDP Github Actions** phiên bản hình ảnh ***Windows*** gốc bởi **Github, Azure, Google Cloud Platform.** Vui lòng không sao chép và chỉnh sửa.
+**RDP Github Actions** phiên bản hình ảnh ***Windows*** gốc bởi **Github, Azure, Google Cloud Platform.** Vui lòng không sao chép và chỉnh sửa repo này.
+
+**Vps Github Actions này được tạo bởi Rinne, vui lòng không sao chép và chỉnh sửa repo này.**
 
 ***Phiên bản gốc: 
 https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet***
