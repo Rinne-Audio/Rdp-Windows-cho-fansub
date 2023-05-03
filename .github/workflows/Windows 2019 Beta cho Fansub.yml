@@ -78,8 +78,13 @@ jobs:
     - name: Setup cho Windows 2019 Fansub Edition
       run: |
          write-host Thông tin hệ điều hành:
+         write-host ......................
+         sleep 2
          write-host Windows Server Data Center Github 2019
+
          write-host Phần phụ trợ tuỳ biến:
+         write-host ......................
+         sleep 2
          write-host Rinne Audio và người dùng tự tuỳ biến
          write-host Phiên bản tuỳ biến:
          write-host Beta1.0-4.5.2023
