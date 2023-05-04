@@ -1,22 +1,35 @@
 
 # 📌 Lời chào (Vietnamese Version)
 
-RDP Github Actions phiên bản hình ảnh Windows gốc bởi Github, Azure Google Cloud Platform. Vui lòng không sao chép và chỉnh sửa.
+**RDP Github Actions** phiên bản hình ảnh ***Windows*** gốc bởi **Github, Azure, Google Cloud Platform.** Vui lòng không sao chép và chỉnh sửa repo này.
 
-## 😺 Giới thiệu về Windows 2019 for fansub
+**Vps Github Actions này được tạo bởi Rinne, vui lòng không sao chép và chỉnh sửa repo này.**
 
-**🥰 Windows 2019 Github Actions Fansub Edition là phiên bản rdp windows được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các fansub**
+* **Phiên bản gốc: 
+https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet**
+
+## 😺 Giới thiệu về Windows 2019, 2022, Ubuntu for Fansub Beta
+
+**🥰 Windows, Ubuntu Github Actions Fansub Edition Beta là phiên bản RDP Windows, Ubuntu được cài sẵn các ứng dụng phần mềm và cài đặt sẵn tương thích cho các Fansub được thử nghiệm trước khi đưa vào bản chính thức của repo
+(repo này không phải do Github tạo ra và không tuân thủ đúng chính sách điều khoản nên vui lòng không sử dung nó để đào coin.)**
 
 **VPS này duy trì hoạt động trong bao lâu?**<br>
 
-* Vps này vẫn hoạt động trong tối đa 6 giờ.<br>
+* **Vps** này vẫn hoạt động trong tối đa 6 giờ.<br>
+
+**Cấu hình của VPS?**
+
+* **Cấu hình mặc định của vps là:**
+* ***RAM:*** 7GB (CHÍNH XÁC LÀ 6.8GB) cho Ubuntu, Windows
+* ***BỘ NHỚ:*** 255GB cho Windows
+* ***BỘ NHỚ:*** Còn lại 30GB cho Ubuntu
 
 ## 🪟 Cách dùng file Windows Server 2019 - Microsoft Remote Desktop
 
 Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](https://dashboard.ngrok.com/get-started/your-authtoken)
-Đăng nhập bằng GitHub sau đó sao chép mã Token, quay lại repo này và vào Actions, chọn Windows Server 2022 và nhấn "Run Workflow" nhập theo yêu cầu ở actions.
+Đăng nhập bằng ***GitHub*** sau đó sao chép mã Token, quay lại repo này và vào Actions, chọn **Windows Server 2019** và nhấn "Run Workflow" nhập theo yêu cầu ở actions.
 
-+ Sau khi nhấn "Run" xong, hãy load lại trang và vào cái Github Actions đang chạy, chờ vài phút bạn sẽ thấy ip và username, mật khẩu
++ Sau khi nhấn "Run" xong, hãy load lại trang và vào cái ***Github Actions*** đang chạy, chờ vài phút bạn sẽ thấy **ip** và **username,** **mật khẩu**
 
 # Kết nối với VPS Windows 2019
 
@@ -33,8 +46,34 @@ Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](http
 
 + **🍎 Hệ điều hành iOS (Unix Like)**: RD Cilent, Microsoft Remote Desktop (ipa)
 
+# 🍔 Cách dùng file Ubuntu - Windows 2022 (Chrome Remote Desktop)
+
++ Vào Actions, chọn Ubuntu 20.04 hoặc Ubuntu 22.04
+
++ Đối với Windows, chọn Windows 2022
+
++ Nhấn "run workflow" và chép mã Debian Linux từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
+
++ Đối với Windows, chép Windows Powershell (nếu chọn VPS Windows) từ [Chrome Remote Desktop](https://remotedesktop.google.com/headless)
+
++ Lưu ý là mã chứ không phải link
+
++ Dán mã đó vào phần "run workflow"
+
++ Tuỳ chọn: Bạn có thể vào trang web [Chocolatey Store](https://community.chocolatey.org/packages) để tìm kiếm các gói phần mềm muốn cài sẵn vào RDP, nếu gói bạn đang tìm khả dụng ở Chocolatey, hãy sao chép tên đằng sau "choco install" của mỗi gói vào phần "run workflow"
+
++ Không được thoát tab Chrome Remote Desktop trong lúc chạy.
+Phần mật khẩu và pin các bạn hãy nhập tuỳ ý nhé!
+Sau đấy hãy nhấn run và chờ một lúc thôi nha
+Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
+Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
+
+## Giấy phép
 
 
 
-## License
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
+Bản thân nội dung của dự án này được cấp phép theo [Giấy phép chưa chuyển đổi Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) và mã nguồn cơ bản
+
+
+
+

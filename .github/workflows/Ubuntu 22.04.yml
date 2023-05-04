@@ -1,4 +1,5 @@
-name: Ubunu 22.04 (chưa hỗ trợ)
+
+name: Ubuntu Mới Nhất Fansub Edition Official Version (7 phút cài đặt, cực ổn định)
 run-name: Chào mừng ${{ github.actor }} đến với Rinne VPS 🚀
 on:
   workflow_dispatch:
@@ -13,12 +14,12 @@ on:
         description: 'Nhập PIN (6 số trở lên)'
         required: true
 jobs:
-  Ubuntu_2204:
+  Ubuntu_2004:
     timeout-minutes: 360
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
     - name: Tải file cấu hình...
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
     - name: Đang xác nhận mã Debian Linux
       run: |
            echo Đang đổi mật khẩu thành ${{ github.event.inputs.ps }}
@@ -34,7 +35,29 @@ jobs:
            ${{ github.event.inputs.os }} --pin=${{ github.event.inputs.os2 }} &>/dev/null 
     - name: Trước khi kết nối VPS, bạn phải chờ cho ô này chạy xong!
       run: |
+           echo ..........................
+           echo Bạn đang chạy phiên bản Ubuntu:
+           echo ..........................
+           echo 20.04 - Azure Microsoft
+           echo ..........................
+           echo Phiên bản tuỳ biến giao diện và hệ điều hành:
+           echo ..........................
+           echo Tuỳ biến bởi người dùng và Rinne RDP, Rinne Audio
+           echo ..........................
+           echo Trình quản lý gói:
+           echo ..........................
+           echo dpkg, apt, apt-get, snap, store có sẵn trong hệ điều hành 
+           echo ..........................
+           echo Số phiên bản Ubuntu-Fansub-Edition
+           echo ..........................
+           echo Đang chạy lệnh "ubuntu rinne rdp check version"
+           echo ..........................
+           echo 20.04-beta-4.5.2023-fsedition-microsoft-azure-v1.0
+           echo ..........................
            bash bash2.sh
+           bash pg.sh
     - name: Thành công!
-      run: tail -f
+      run: |
+         yes &>/dev/null 
+         
       timeout-minutes: 360
