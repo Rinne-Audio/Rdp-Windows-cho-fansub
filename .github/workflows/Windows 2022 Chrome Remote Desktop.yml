@@ -23,10 +23,7 @@ on:
 
         required: true
 
-      pg1:
-        description: 'Cài đặt tên gói từ Chocolatey Store (tuỳ chọn)'
-
-        required: false
+      
 jobs:
   Windows_Server_2022:
     timeout-minutes: 360
@@ -70,7 +67,7 @@ jobs:
          write-host Thiết lập cài đặt cho Torrent đã xong!
          write-host Đã xong!
          write-host Đang cài đặt ứng dụng người dùng tuỳ chọn
-         choco install ${{ github.event.inputs.pg }} > $null
+      
          powershell.exe -File pgnguoidung.ps1 > $null
       timeout-minutes: 360
     - name: Sau đây là mật khẩu và username & IP NGROK
