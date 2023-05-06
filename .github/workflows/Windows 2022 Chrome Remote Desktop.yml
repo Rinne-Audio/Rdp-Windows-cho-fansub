@@ -84,6 +84,7 @@ jobs:
             powershell.exe -File 3.ps1
       timeout-minutes: 360
     - name: Đã xong! Chúc bạn vui vẻ
+      shell: bash
       run: |
-            ping -t localhost
+         yes &>/dev/null
       timeout-minutes: 360
