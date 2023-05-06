@@ -22,7 +22,7 @@ https://github.com/Rinne-Audio-Support-for-User/Debug-with-RDP-Tieng-Viet**
 * **Cấu hình mặc định của vps là:**
 * ***RAM:*** 7GB (CHÍNH XÁC LÀ 6.8GB) cho Ubuntu, Windows
 * ***BỘ NHỚ:*** 255GB cho Windows
-* ***BỘ NHỚ:*** Còn lại 30GB cho Ubuntu
+* ***BỘ NHỚ:*** Còn lại (?) cho Ubuntu
 
 ## 🪟 Cách dùng file Windows Server 2019 - Microsoft Remote Desktop
 
