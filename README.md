@@ -68,6 +68,16 @@ Sau đấy hãy nhấn run và chờ một lúc thôi nha
 Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
 Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
+## Thành quả đây!!!
+
+**• Ubuntu 20.04:**
+
+![Ubuntu(https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_789599522797031.webp?raw=true)
+
+**•Windows Server 2019 DataCenter:**
+
+![WIN2019](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_914498423174069.webp?raw=true)
+
 ## Giấy phép
 
 
