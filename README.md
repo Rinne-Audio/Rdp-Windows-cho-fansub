@@ -72,9 +72,9 @@ Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
 **• Ubuntu 20.04:**
 
-![Ubuntu(https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_789599522797031.webp?raw=true)
+![Ubuntu](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_789599522797031.webp?raw=true)
 
-**•Windows Server 2019 DataCenter:**
+**• Windows Server 2019 DataCenter:**
 
 ![WIN2019](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_914498423174069.webp?raw=true)
 
