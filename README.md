@@ -60,13 +60,17 @@ Fork trang này về (nút trên cùng bên phải), Vào trang web [Ngrok](http
 
 + Dán mã đó vào phần "run workflow"
 
-+ Tuỳ chọn: Bạn có thể vào trang web [Chocolatey Store](https://community.chocolatey.org/packages) để tìm kiếm các gói phần mềm muốn cài sẵn vào RDP, nếu gói bạn đang tìm khả dụng ở Chocolatey, hãy sao chép tên đằng sau "choco install" của mỗi gói vào phần "run workflow"
++ Tuỳ chọn: Bạn có thể vào trang web [Chocolatey Store](https://community.chocolatey.org/packages) để tìm kiếm các gói phần mềm muốn cài sẵn vào RDP, nếu gói bạn đang tìm khả dụng ở Chocolatey, hãy sao chép tên đằng sau "choco install" của mỗi gói vào file code pgnguoidung.ps1
 
 + Không được thoát tab Chrome Remote Desktop trong lúc chạy.
 Phần mật khẩu và pin các bạn hãy nhập tuỳ ý nhé!
 Sau đấy hãy nhấn run và chờ một lúc thôi nha
 Sau khi chạy xong, bạn sẽ có một vps mới ở Chrome Remote Desktop, hãy kết nối và kết nối bằng PIN bạn đã nhập
 Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
+
++ **Windows 2022:** Sau khi chạy xong bạn sẽ thấy ngay giao diện Windows trước mắt, không tắt tab Github nếu không muốn bị hỏng VPS
+
++ **Ubuntu:** Sau khi chạy xong bạn sẽ cần chọn "Ubuntu" nếu được hỏi, vậy là xong rồi, chúc các bạn thành công!
 
 ## Thành quả đây!!!
 
