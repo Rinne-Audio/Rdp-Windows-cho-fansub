@@ -70,9 +70,17 @@ Trong [Chrome Remote Desktop](https://remotedesktop.google.com/access)
 
 ## Thành quả đây!!!
 
+**• Windows Server 2022 DataCenter:**
+
+![Win22](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_1038569573789810.webp?raw=true)
+
 **• Ubuntu 20.04:**
 
 ![Ubuntu](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_789599522797031.webp?raw=true)
+
+**• Ubuntu 22.04:**
+
+![Ubuntu22](https://github.com/Rinne-Audio-Support-for-User/Rdp-cho-fansub-beta/raw/main/received_762784862186636.webp?raw=true)
 
 **• Windows Server 2019 DataCenter:**
 
